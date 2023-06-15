@@ -1,0 +1,32 @@
+{
+  "name": "alpha-cms-2",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.1",
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/strapi": "4.11.1",
+    "false": "^0.0.4",
+    "mysql": "2.18.1",
+    "sharp": "^0.32.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "b8912fbe-243e-42b2-9365-7814155ae591"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
